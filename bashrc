@@ -2,6 +2,9 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+# Figure out what machine I am on
+host=`hostname`
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -115,3 +118,5 @@ fi
 
 # Set vi bindings
 set -o vi
+
+
