@@ -118,5 +118,5 @@ fi
 
 # Set vi bindings
 set -o vi
-
-
+# Remote CVS ROOT
+export CVSROOT=:ext:nmtadam@fearless:/data/cvsroot
