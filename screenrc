@@ -1,0 +1,22 @@
+## nmtadam .screnrc
+
+# Stop displaying the splash screen
+startup_message off
+
+# tab-completion flash in heading bar
+vbell off
+
+# keep scrollack n lines
+defscrollback 100
+
+# Xterm scrollback
+termcapinfo xterm* ti@:te@
+
+# Look me up, stolen somewhere online
+shelltitle "$ |bash"
+
+# Have last line be status
+hardstatus alwayslastline
+
+# Also need to look at this more closely when I get a chance
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
