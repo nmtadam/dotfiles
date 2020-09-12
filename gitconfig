@@ -1,5 +1,7 @@
 [user]
-	email = nmtadam@gmail.com
-	name = Adam Manzanares
+    email = nmtadam@gmail.com
+    name = Adam Manzanares
 [push]
-	default = simple
+	default = matching
+[merge]
+	tool = meld
